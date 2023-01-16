@@ -273,10 +273,11 @@ fun RegistrationScreen(navController: NavHostController, viewModel: MainViewMode
         Button(
             onClick = {
                 if (valuePass == valuePassRep) {
-                    viewModel.addUser(AddUserModel(valueKeyWord.text, valuePass.text, selectedOption.toLowerCase(), valueName.text))
+                    viewModel.addUser(AddUserModel(valueKeyWord.text, valuePass.text,
+                        selectedOption.lowercase(Locale.getDefault()), valueName.text))
                 }
                 else {
-
+                    //TODO
                 }
             }
         ) {

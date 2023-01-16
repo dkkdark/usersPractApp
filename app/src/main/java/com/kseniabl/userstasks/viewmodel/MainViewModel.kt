@@ -161,7 +161,7 @@ class MainViewModel @Inject constructor(
                 _matchedOrgs.emit(_allOrgs)
                 return@launch
             }
-           val filterList = _allOrgs?.filter { el ->
+            val filterList = _allOrgs?.filter { el ->
                el.name.contains(search) || el.phoneNum.contains(search)
            } as ArrayList<OrganizationResponse>
            _matchedOrgs.emit(filterList)

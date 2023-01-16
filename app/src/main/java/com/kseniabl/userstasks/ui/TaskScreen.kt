@@ -37,7 +37,7 @@ fun TaskScreen(viewModel: MainViewModel, snackbarHostState: SnackbarHostState) {
         viewModel.tasksList.collect { value ->
             if (value is Resource.Loading<*>)
                 Log.e("qqq", "Loading tasks")
-            if (value is Resource.Success<*>) {
+             if (value is Resource.Success<*>) {
                 tasks = value.data?.body() ?: arrayListOf()
             }
         }
