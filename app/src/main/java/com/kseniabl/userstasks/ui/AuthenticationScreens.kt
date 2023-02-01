@@ -245,7 +245,8 @@ fun RegistrationScreen(navController: NavHostController, viewModel: MainViewMode
                             role = Role.RadioButton
                         )
                         .padding(16.dp),
-                    verticalAlignment = Alignment.CenterVertically
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
                 ) {
                     RadioButton(
                         selected = (text == selectedOption),
