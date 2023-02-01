@@ -1,6 +1,6 @@
 # usersPractApp
 
-MVVM app
+MVVM app. UI for showing data that stores in PostgreSQL (tasks, organizations, users)
 
 
 Stack:
@@ -8,6 +8,7 @@ Stack:
 - Retrofit
 - Hilt
 - Flows
+
 
 
 <img width="256" alt="Снимок экрана 2023-02-01 в 12 18 21" src="https://user-images.githubusercontent.com/49618961/216002195-a65fdce1-5eca-4471-8b60-29981183a162.png">
