@@ -7,7 +7,7 @@ Stack:
 - Compose
 - Retrofit
 - Hilt
-- Flows
+- Coroutines Flows
 
 
 
